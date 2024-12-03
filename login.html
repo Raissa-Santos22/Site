@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="/Imagens/Cópia de Logo.ico.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="/login estilo.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+       <img src="/Imagens/logotipo.png" alt="Logo" class="logo">
+       <h2>Login</h2>
+       <form id="LoginForm">
+       <label for="Email">Email
+       <input type="email"id="Email" name="email"required>
+        </label>
+       <label for="Password">Senh
+        <input type="Password"id="Password" name="password"required>
+        <button id="eyesOn"><span class="material-symbols-outlined">visibility
+        </span></button>
+         <button id="eyesOff"><span class="material-symbols-outlined" >
+         visibility_off</span></button>
+         </label>
+        <button type="Submit">Continuar</button></form>
+        <p>
+         Ao criar sua conta, você concorda com <a href="/termos.html">Condições de Uso de Mente Aberta</a> </p>
+        <p>Não possui uma conta? <a href="/cadastro.html">Cadastre-se</a></p>
+        <p> <a href="/perfil.html">Personalize seu perfil </a> </p>
+        </div>
+        </div>
+       
+       
+    
+    <!-- JavaScript direto no HTML-->
+     
+    <script>
+       const eyesOn = document.getElementById('eyesOn');
+       const eyesOff = document.getElementById('eyesOff');
+
+eyesOn.addEventListener ('click', () => {
+    eyesOn.style.display = 'none';
+
+    eyesOff.style.display = 'flex';
+});
+
+    </script>
+    
+
+    
+</body>
+</html>

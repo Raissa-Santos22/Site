@@ -1,0 +1,148 @@
+:root{
+    --cor0:#009999;
+    --cor1:#00bfa8;
+    --cor2:#00cccc;
+    --cor3:#33ffff;
+    --cor4:#99ffff;
+    --cor5:white;   
+}
+
+body{
+   background-color:var(--cor0);
+}
+
+.Logo{
+    height: 120px;
+    width: 130px;
+}
+
+header{
+    background-color: var(--cor5);
+    height: 130px;
+    padding:10px;
+    margin: -10px;
+    
+}
+
+p{
+    color:white;
+    font-family:Inria Serif;
+    text-align: center;
+    font-size: 1.3em;
+} 
+
+.psicologa1{
+    height: 200px;
+    height: 200px;
+}
+
+.psicologa2{
+    height: 200px;
+    height: 200px;
+}
+
+.psicologa3{
+    height: 200px;
+    height: 200px;
+}
+.container{
+  display: flex;
+}
+
+.frase{
+    font-size: 1.2em;
+    text-align: justify;
+    color:var(--cor4);
+}
+
+.texto1{
+    color:var(--cor5);
+   font-size: 1.1em;
+
+}
+
+.estilo{
+    display: flex;
+}
+
+.frase2{
+    font-size: 1.2em;
+    text-align: justify;
+    color:var(--cor4);
+}
+
+.texto2{
+    color:var(--cor5);
+   font-size: 1.1em;
+   text-align: left;
+
+}
+
+.estilo3{
+    display: flex;
+}
+
+.frase3{
+    font-size: 1.2em;
+    text-align: justify;
+    color:var(--cor4);
+}
+
+.texto3{
+    color:var(--cor5);
+   font-size: 1.1em;
+   text-align: left;
+
+}
+
+footer{
+    background-color: var(--cor5);
+    margin: -10px;
+    height: 150px;
+    padding: 20px;
+}
+
+.direitos{
+    padding-top: 60px;
+    background-color: var(--cor5);
+    margin: -10px;
+    padding-left: -20px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    color: var(--cor0);
+}
+
+.botao{
+    background-color: var(--cor1);
+    color:white;
+    text-decoration: none;
+    height: 50px;
+    width: 110px;
+    border-radius: 6px;
+    box-shadow:var(--cor5);
+    border-color: var(--cor0);
+    padding: 10px;
+    float: right;
+    text-decoration: none;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.imagens{
+    color:white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+#local{
+    text-align: center;
+    color: var(--cor4);
+    font-size: 19pt;
+}
+
+  
+  
