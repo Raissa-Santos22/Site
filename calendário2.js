@@ -1,49 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Calendario</title>
-    <link rel="shortcut icon" href="/Imagens/Cópia de Logo.ico.png" type="image/x-icon">
-    <link rel="stylesheet" href="/calendário2 estilo.css">
-</head>
-<body>
-    <div class="container"></div>
-        <div class="calendar">
-          <header>
-            <pre class="left">◀</pre>
-            
-            <div class="header-display">
-              <p class="display">""</p>
-            </div>
-      
-            <pre class="right">▶</pre>
-      
-          </header>
-      
-          <div class="week">
-            <div>Dom</div>
-            <div>Seg</div>
-            <div>Ter</div>
-            <div>Qua</div>
-            <div>Qui</div>
-            <div>Sex</div>
-            <div>Sab</div>
-          </div>
-          <div class="days"></div>
-        </div>
-        <div class="display-selected">
-          <p class="selected"></p>
-        </div>
-      </div>
-      <script src="/calendário2.js"></script>
-<script>
-let display = document.querySelector(".display");
-let days = document.querySelector(".days");
-let previous = document.querySelector(".left");
-let next = document.querySelector(".right");
-let selected = document.querySelector(".selected");
-
 let date = new Date();
 
 let year = date.getFullYear();
@@ -129,19 +83,8 @@ function displaySelected() {
   dayElements.forEach((day) => {
     day.addEventListener("click", (e) => {
       const selectedDate = e.target.dataset.date;
-      selected.innerHTML = `Data Selecionada : ${selectedDate}`;
+      selected.innerHTML = `Selected Date : ${selectedDate}`;
     });
   });
 }
 displaySelected();
-</script>
-
-
-
-</body>
-<footer>
-    <button class="botao"><a href="/home.html">Finalizar Agendamento</a></button>
-</footer>
-</html>
-
-    
