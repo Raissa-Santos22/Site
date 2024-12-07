@@ -1,14 +1,17 @@
 :root{
-    --cor0:#009999;
-    --cor1:#00bfa8;
-    --cor2:#00cccc;
-    --cor3:#33ffff;
-    --cor4:#99ffff;
-    --cor5:white;   
+  --cor0:#009999;
+  --cor1:#00bfa8;
+  --cor2:#00cccc;
+  --cor3:#33ffff;
+  --cor4:#99ffff;
+  --cor5:white;  
+  --cor6:#d7e9ed;
+  --cor7:#90e6d3;
+  --cor8:#4cbbad;
 }
   
   body {
-    background-color:var(--cor2);
+    background-color:var(--cor7);
     display: flex;
     align-items: center;
     justify-content: center;

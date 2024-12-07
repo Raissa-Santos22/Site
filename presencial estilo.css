@@ -61,9 +61,11 @@ p{
   margin-bottom: 20px;
   display: flex;
   background-color:var(--cor5);
-  height: 400px;
+  height: 450px;
   width: 1000px;
   border-radius: 10px;
+  padding: 10px;
+  text-align: justify;
 
 }
 
@@ -76,7 +78,7 @@ p{
 .texto1{
    color:var(--cor0);
    font-size: 1.1em;
-   padding-right: 500px;
+   padding-right: 600px;
 }
 
 .estrela{
@@ -94,8 +96,8 @@ p{
     margin: 10px;
     height: 30px;
     border-radius: 5px;
-    background-color: var(--cor7);
-    border-color: var(--cor8);
+    background-color: var(--cor6);
+    border-color: var(--cor6);
 }
 
 .botaoo{
@@ -112,37 +114,6 @@ p{
 .estilo{
     display: flex;
 }
-
-.frase2{
-    font-size: 1.2em;
-    text-align: justify;
-    color:var(--cor4);
-}
-
-.texto2{
-    color:var(--cor5);
-   font-size: 1.1em;
-   text-align: left;
-
-}
-
-.estilo3{
-    display: flex;
-}
-
-.frase3{
-    font-size: 1.2em;
-    text-align: justify;
-    color:var(--cor4);
-}
-
-.texto3{
-    color:var(--cor5);
-   font-size: 1.1em;
-   text-align: left;
-
-}
-
 
 a{
     color:white;
