@@ -1,5 +1,6 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
 }:root{
     --cor0:#009999;
     --cor1:#00bfa8;
@@ -68,23 +69,58 @@ p{
   text-align: justify;
 
 }
+.menu{
+    font-size: 14pt;
+    margin-right: 70px;
+    margin-top: -100px;
+    text-align: right;
+}
 
-
+a:hover{
+    color: var(--cor8);
+}
 .frase{
-    font-size: 1.2em;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
     color:var(--cor0);
 }
 
 .texto1{
-   color:var(--cor0);
-   font-size: 1.1em;
+   color:black;
+   font-size: 17pt;
+   text-align: justify;
    padding-right: 600px;
+   padding: 10px;
 }
 
 .estrela{
-    height: 50px;
-    color: yellow;
+    padding-right: 260px;
+    margin-top: -65px;
+    color:yellow;
+    text-align: right;
 }
+
+.estrela2{
+    padding-right: 280px;
+    margin-top: -65px;
+    color:yellow;
+    text-align: right;
+}
+.estrela3{
+    padding-right: 330px;
+    margin-top: -65px;
+    color:yellow;
+    text-align: right;
+}
+.numero{
+    font-size: 15pt;
+    padding-left: 10px;
+    text-align: left;
+    color: black;
+}
+
+
 .avaliaçao{
     color: black;
 }
@@ -98,6 +134,7 @@ p{
     border-radius: 5px;
     background-color: var(--cor6);
     border-color: var(--cor6);
+    box-shadow: #90e6d3;
 }
 
 .botaoo{
@@ -118,12 +155,6 @@ p{
 a{
     color:white;
     text-decoration: none;
-}
-
-#local{
-    text-align: center;
-    color: var(--cor5);
-    font-size: 19pt;
 }
 
 /* Estilos para o Footer */
