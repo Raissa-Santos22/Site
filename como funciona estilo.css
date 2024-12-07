@@ -7,23 +7,25 @@
     --cor5:white;   
 }
 #cabecalho{
-   background-color:white; 
+   background-color:#d7e9ed;
    padding: -10px;
    margin: -10px;
    padding-left: 15px;
    margin-bottom: 3px;
+   height: 200px;
 }
 
 body{
-    background-color:var(--cor0)
+    background-color:#90e6d3;
 }
 .logo{
     margin: -10px;
-    width: 120px;
-    height: 120px;
-    padding-left: 10px;
+    width: 150px;
+    height: 150px;
+    padding-left: 20px;
     padding: 10px;
-    margin-top: 10px;
+    margin-left: 5px;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -36,9 +38,9 @@ body{
     margin: -10px;
     padding: -10px;
     font-size: 25pt;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
-    background-color:var(--cor2)
+    font-family:Arial, Helvetica, sans-serif;
+    color:#C3F6EB;
+    background-color:#4cbbad;
 }
 
 #passo1{
@@ -158,21 +160,109 @@ body{
  
  }
 
-#rodape{
-    padding-bottom: 20px;
-    padding-top: 100px;
-    margin-top: 120px;
-    width: 1350px;
-    height: 200px;
-    margin: -10px;
-    margin-top: 100px;
-    padding: -10px;
-    background-color: var(--cor5);
+/* Estilos para o Footer */
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 115px;
+    background-color: #28407e; /* Fundo azul escuro */
+    color: #fff; /* Texto branco */
+    padding: 40px 20px;
+    margin-left:-20px;
+    margin-bottom: -20px;
+    margin-right: -20px;
+    text-align: center;
 }
 
-.p4{
-    font-size: 15pt;
-    color:#009999;
-    padding-top: 70px;
-   text-align: center;
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.footer-logo {
+    flex: 1;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.footer-logo a {
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-logo p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.footer-links {
+    flex: 1;
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-links h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #85a2eb; /* Efeito de hover */
+}
+
+.footer-social {
+    flex: 1;
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-social h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #499750; /* Cor quando o ícone é ativado */
+}
+
+.footer-bottom {
+    background-color: #1d2e4f; /* Cor de fundo mais escura para a parte inferior */
+    padding: 10px 0;
+    font-size: 1.2em;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #ddd;
 }

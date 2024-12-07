@@ -21,7 +21,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 100vh;
-background-color: #009999;   
+background-color:#4cbbad;
 }
 
 .container {
@@ -42,11 +42,12 @@ width: 320px;
 
 .logo{
 width: 200px;
-margin-bottom: 20px;
+margin-top: -30px;
 }
 
 h2 {
-margin-bottom: 20px;
+    margin-top: -20px;
+    margin-bottom: 20px;
 }
 
 form{

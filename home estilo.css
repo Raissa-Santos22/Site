@@ -314,44 +314,105 @@ body {
     background-color: #20325f;
 }
 
-/*footer*/
-
+/* Estilos para o Footer */
 .footer {
-    background-color: #28b9b5;
-    color: #333;
-    padding: 70px 0;
-    border-top: 7px solid #2f4f8f;
+    margin-top: 115px;
+    background-color: #28407e; /* Fundo azul escuro */
+    color: #fff; /* Texto branco */
+    padding: 40px 20px;
+    text-align: center;
 }
 
 .footer-content {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    margin-bottom: 30px;
 }
 
-.contact p {
-    margin: 5px 0;
+.footer-logo {
+    flex: 1;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.footer-logo a {
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-logo p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.footer-links {
+    flex: 1;
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-links h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #85a2eb; /* Efeito de hover */
+}
+
+.footer-social {
+    flex: 1;
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-social h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.social-icons {
     display: flex;
-    align-items: center;
+    gap: 20px;
+    justify-content: center;
 }
 
-.contact img {
-    margin-right: 10px;
-    width: 20px;
-    height: 20px;
+.social-icons a {
+    color: #fff;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
 }
 
-.copyright {
-    text-align: right;
+.social-icons a:hover {
+    color: #499750; /* Cor quando o ícone é ativado */
 }
 
-    .contact {
-        margin-bottom: 20px;
-    }
+.footer-bottom {
+    background-color: #1d2e4f; /* Cor de fundo mais escura para a parte inferior */
+    padding: 10px 0;
+    font-size: 1.2em;
+}
 
-    .copyright {
-        text-align: center;
-    }
+.footer-bottom p {
+    margin: 0;
+    color: #ddd;
+}
