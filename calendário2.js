@@ -1,3 +1,9 @@
+let display = document.querySelector(".display");
+let days = document.querySelector(".days");
+let previous = document.querySelector(".left");
+let next = document.querySelector(".right");
+let selected = document.querySelector(".selected");
+
 let date = new Date();
 
 let year = date.getFullYear();
@@ -83,7 +89,7 @@ function displaySelected() {
   dayElements.forEach((day) => {
     day.addEventListener("click", (e) => {
       const selectedDate = e.target.dataset.date;
-      selected.innerHTML = `Selected Date : ${selectedDate}`;
+      selected.innerHTML = `Data Selecionada : ${selectedDate}`;
     });
   });
 }

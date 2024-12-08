@@ -34,12 +34,14 @@ body {
 
 .menu{
     float: center;
+    text-decoration: none;
     padding: 5px;
 }
 
 .menu ul, menu li{
    margin: 0%;
    padding: 0%;
+   text-decoration: none;
    list-style: none;
    color: #28407e;
    font-size: 50px;
@@ -121,23 +123,17 @@ body {
 
 .como{
     margin-top: 60px;
-
     font-size: 20px;
     color: #00796b;
 }
 
-
-
-
-
 .steps {
-    flex: 1;
+    flex:2;
     padding-right: 20px;
     text-align: left;
 }
 
 .steps p{
-
     font-size: 25px;
     margin: 10px;
     color: #004d40;
@@ -152,15 +148,21 @@ body {
 }
 
 .image {
+    height: 400px;
+    width: 400px;
+    padding-left: 100px;
     flex: 1;
     display: flex;
-    justify-content: center;
 }
 
 .image img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+}
+.t1{
+   font-size: 16pt;
+
 }
 
 .sinais{
@@ -238,6 +240,7 @@ body {
     padding: 10px;
     width: 45%;
     text-align: center;
+    text-decoration: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
