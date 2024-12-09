@@ -1,0 +1,249 @@
+:root{
+    --cor0:#009999;
+    --cor1:#00bfa8;
+    --cor2:#00cccc;
+    --cor3:#33ffff;
+    --cor4:#99ffff;
+    --cor5:white;  
+    --cor6:#d7e9ed;
+    --cor7:#90e6d3;
+    --cor8:#4cbbad;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #d7e9ed;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.imagem{
+    width: 150px;
+    height: 150px;
+}
+/* Links de navegação */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #28407e;
+    font-size: 1.1em;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover nos links */
+.nav-links li a:hover {
+    background-color: #85a2eb; /* Cor mais escura ao passar o mouse */
+    border-radius: 5px;
+}
+
+.seta{
+    width: 20px;
+    height: 20px;
+}
+
+.ajuda{
+    font-weight:bolder;
+    height: 270px;
+    width: 100%;
+    color: var(--cor8);
+    text-align: center;
+    padding-top: 210px;
+    margin-top: -30px;
+    background-color: var(--cor7);
+}
+
+.titulo{
+    display: inline-block;
+    font-weight: lighter;
+    padding-right: 300px;
+    padding-left: 50px;
+    padding-top: 20px;
+    color: var(--cor8);
+    font-size: 20pt;
+}
+
+.titulo1{
+    display: inline-block;
+    font-weight: lighter;
+    padding-right: 200px;
+    padding-left: 50px;
+    padding-top: 20px;
+    color: var(--cor8);
+    font-size: 20pt;
+}
+.texto{
+    font-size: 13pt;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.problema{
+    color: black;
+    padding: 10px;
+    padding-left: 50px;
+    font-size: 14pt;
+}
+
+.problema1{
+    color: black;
+    padding: 10px;
+    padding-left: 50px;
+    font-size: 14pt;
+}
+
+.problema:hover{
+   color: var(--cor7);
+}
+
+.problema1:hover{
+        color: var(--cor7);
+     }
+
+
+
+li{
+    list-style-type: none;
+}
+
+.funciona{
+    color: black;
+    text-decoration: none;
+}
+
+.funciona:hover{
+    color: black;
+    text-decoration: none;
+}
+
+/* Estilos para o Footer */
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 115px;
+    background-color: #28407e; /* Fundo azul escuro */
+    color: #fff; /* Texto branco */
+    padding: 40px 20px;
+    margin-left:-20px;
+    margin-bottom: -20px;
+    margin-right: -20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.footer-logo {
+    flex: 1;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.footer-logo a {
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-logo p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.footer-links {
+    flex: 1;
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-links h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #85a2eb; /* Efeito de hover */
+}
+
+.footer-social {
+    flex: 1;
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-social h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #499750; /* Cor quando o ícone é ativado */
+}
+
+.footer-bottom {
+    background-color: #1d2e4f; /* Cor de fundo mais escura para a parte inferior */
+    padding: 10px 0;
+    font-size: 1.2em;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #ddd;
+}
+
+
+
+

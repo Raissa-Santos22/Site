@@ -19,8 +19,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .logo{
-    height: 130px;
-    width: 130px;
+    height: 150px;
+    width: 150px;
 }
 /* Logo */
 .navbar .logo a {
@@ -98,7 +98,7 @@
 .quem-somos {
     background:#4cbbad;
     text-align: center;
-    margin-top: 140px;
+    margin-top: 160px;
     padding: 40px 20px;
 }
 
