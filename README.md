@@ -3,4 +3,4 @@
 Linguagens e Ferramentas utilizadas durante o projeto
 [![My Skills](https://skillicons.dev/icons?i=,html,css,javascript,github,git,notion,vscode&theme=light)](https://skillicons.dev)
 
-Atuei nesse projeto como Designer e Dev front-end
+Atuei nesse projeto como Designer e Dev 
