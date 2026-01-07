@@ -63,7 +63,7 @@
 ## 📋 Sobre o Projeto
 
 - **Tipo:** Front-end apenas  
-- **Objetivo:** Criar um site informativo de Psicologia com design responsivo, interativo e navegável  
+- **Objetivo:** Criar um site informativo de Psicologia com design interativo e navegável  
 - **Aprendizado:** Aplicação prática de HTML, CSS e JavaScript, incluindo desenvolvimento de **calendários dinâmicos** e organização de múltiplas telas  
 
 ---
@@ -82,6 +82,7 @@
 - Tela de Quem Somos  
 - Tela de Suporte  
 - Tela de Termos  
+
 ---
 
 ## 🚀 Funcionalidades
@@ -90,3 +91,21 @@
 - Seções informativas sobre Psicologia  
 - Calendários interativos para consultas online e presenciais  
 - Design moderno e atrativo  
+
+---
+
+## 💪 Habilidades Desenvolvidas
+
+### Hard Skills
+- Desenvolvimento de **front-end** com HTML, CSS e JavaScript  
+- Criação de **calendários interativos** usando JavaScript  
+- Design responsivo e usabilidade  
+
+### Soft Skills
+- Trabalho em **equipe** e colaboração  
+- **Gestão de tempo** para entregar funcionalidades  
+- **Comunicação e organização** durante o desenvolvimento  
+
+
+
+
